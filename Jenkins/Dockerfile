@@ -1,5 +1,4 @@
-FROM jenkins:latest
-EXPOSE 8080
+FROM jenkins/jenkins
 
 USER root
 COPY plugins.txt /usr/share/jenkins/plugins.txt
